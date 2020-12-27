@@ -1,0 +1,10 @@
+^W:\SUBDIVSIMP\BUILD\CMAKEFILES\136D3B302C0E2C695EB55A2FCB306A62\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SW:/SubdivSimp -BW:/SubdivSimp/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file W:/SubdivSimp/build/LineSimp.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,3 @@
+W:/SubdivSimp/build/CMakeFiles/LineSimp.dir
+W:/SubdivSimp/build/CMakeFiles/ALL_BUILD.dir
+W:/SubdivSimp/build/CMakeFiles/ZERO_CHECK.dir
