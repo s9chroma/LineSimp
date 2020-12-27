@@ -7,5 +7,8 @@
 - Find generic CGAL alternative for CGAL::Cartesian. Done on **27/12/2020** 
 
 ## 27/12/2020
-- Look at QT visualization.
+- Generate list of points stored as GeoJSON. 
+- Write GeoJSON parser.
+- Implement interface. 
+- Look at QT visualization. For loop for array of points.
 - Add `line_math.h` with functions `angle_with_x_axis`, `is_inside_circle`, `angle_range_intersection`, `get_tangent_points`.
